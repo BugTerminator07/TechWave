@@ -29,6 +29,7 @@ background-clip:text;
     height: 92px;
     display: flex;
     align-items: center;
+    border-bottom: 0.001px solid steelblue;
 }
 .nav-items ul{
     list-style: none;
@@ -52,4 +53,78 @@ background-clip:text;
 }
 .nav-items{
     margin-left: 314px;
+}
+.toper {
+  width: 100%;
+  height: 760px;
+  background-image: url('assets/hero-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.centre{
+    margin: 0 auto;
+    width: 550px;
+    height: 558px;
+    justify-content: center;
+    position: relative;
+}
+.centre img{
+    padding-left: 80px;
+}
+
+.centre{
+  display: grid;
+  place-items: center; 
+  position: relative;
+}
+
+.bg {
+  grid-area: 1 / 1;
+}
+
+.overlay {
+  grid-area: 1 / 1; 
+}
+.top-text{
+    width: 600px;
+    height: 168px;
+    margin: 0 auto;
+    text-align: center;
+}
+.top-text h1{
+    font-size: 60px;
+    font-weight: bolder;
+    color: #FFFFFF;
+    padding-left: 50px;
+    
+}
+.top-text p{
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-top: 10px;
+    justify-content: center;
+}
+.btn2{
+    width: 201px;
+    height: 44px;
+     background: linear-gradient(to right,#F7E93F 0%, #FB09B4 45%, #9100F8 100%);
+     color:#FFFFFF;
+     font-size: 16px;
+     font-weight: bold;
+     border-radius: 20px;
+     margin-right: 10px;
+}
+.subscribe{
+    width: 147px;
+    height: 44px;
+    background-color: transparent;
+    color: #00FF88;
+    border: 1px solid #00FF88;
+    border-radius: 20px;
+
+}
+.top-text button{
+margin-top: 15px;
 }
