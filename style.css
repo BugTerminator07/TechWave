@@ -304,3 +304,278 @@ padding-top: 120px;
     height: 412px;
     background-image: url(assets/footer-bg.png);
 }
+   
+
+
+@media screen and (max-width: 596px) {
+    .nav-container {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+    
+    .nav-title {
+        margin-left: 0;
+    }
+    
+    .nav-title h1 {
+        font-size: 32px;
+    }
+    
+    .nav-items {
+        margin-left: 0;
+    }
+    
+    .nav-items ul {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+        padding: 10px 0;
+    }
+    
+    .btn {
+        margin-left: 0;
+        width: 120px;
+        height: 40px;
+    }
+    
+    .toper {
+        height: auto;
+        padding: 40px 0;
+    }
+    
+    .centre {
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .centre img {
+        padding-left: 0;
+    }
+    
+    .bg {
+        width: 80%;
+        height: auto;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .overlay {
+        width: 40%;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+    }
+    
+    .top-text {
+        width: 100%;
+        height: auto;
+        padding: 20px 15px;
+    }
+    
+    .top-text h1 {
+        font-size: 40px;
+        padding-left: 0;
+    }
+    
+    .top-text p {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+    
+    .btn2, .subscribe {
+        margin: 10px 5px;
+        width: auto;
+        padding: 12px 20px;
+    }
+    
+    .about-container {
+        height: auto;
+        padding-bottom: 50px;
+    }
+    
+    .about-title {
+        width: 100%;
+        height: auto;
+        padding: 20px 15px;
+    }
+    
+    .about-title h1 {
+        font-size: 36px;
+        padding-top: 30px;
+    }
+    
+    .about-title p {
+        font-size: 14px;
+        padding: 0 15px;
+    }
+    
+    .about-about {
+        width: 100%;
+        margin: 50px auto;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+        gap: 20px;
+    }
+    
+    .heavy {
+        font-size: 24px;
+    }
+    
+    .light {
+        font-size: 14px;
+    }
+    
+    .line {
+        width: 90%;
+        left: 5%;
+    }
+    
+    .choose {
+        height: auto;
+        padding-bottom: 50px;
+    }
+    
+    .choose-title h2 {
+        font-size: 36px;
+        padding-top: 60px;
+    }
+    
+    .card-holder {
+        width: 90%;
+        margin: 30px auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        height: auto;
+        gap: 20px;
+    }
+    
+    .card-1, .card-2, .card-3, .card-4 {
+        grid-column: span 1;
+        grid-row: span 1;
+        height: auto;
+        padding-bottom: 30px;
+    }
+    
+    .card-1 img {
+        margin-top: 40px;
+    }
+    
+    .img-icon {
+        padding-left: 20px;
+    }
+    
+    .card-title {
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    
+    .card-para {
+        padding-left: 20px;
+        font-size: 14px;
+    }
+    
+    .last {
+        height: auto;
+    }
+    
+    .episodes {
+        width: 90%;
+        height: auto;
+        margin: 60px auto;
+    }
+    
+    .episodes h2 {
+        font-size: 36px;
+    }
+    
+    .card-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .epi-card {
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    
+    .epi-card h2 {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+    
+    .epi-card p {
+        font-size: 14px;
+        padding: 0 15px;
+    }
+    
+    .host {
+        margin: 60px 20px;
+    }
+    
+    .host h2 {
+        font-size: 36px !important;
+    }
+    
+    .host-id {
+        flex-direction: column !important;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .host-img img {
+        padding: 20px !important;
+        width: 90%;
+        height: auto;
+    }
+    
+    .host-into {
+        padding: 0 15px;
+    }
+    
+    .host-into h2 {
+        font-size: 28px !important;
+        padding-top: 0 !important;
+    }
+    
+    .host-into p {
+        font-size: 14px !important;
+    }
+    
+    .host-icon {
+        justify-content: center;
+        gap: 20px !important;
+        padding-top: 20px !important;
+        padding-bottom: 30px;
+    }
+    
+    .finish h1 {
+        font-size: 45px !important;
+        padding-top: 50px;
+    }
+    
+    .finish div {
+        flex-direction: column !important;
+        gap: 20px !important;
+        align-items: center;
+        padding-top: 20px !important;
+    }
+    
+    .finish div a {
+        padding-left: 0 !important;
+    }
+    
+    .finish p {
+        font-size: 14px;
+        padding: 20px 15px;
+    }
+}
