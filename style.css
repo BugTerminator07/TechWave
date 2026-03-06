@@ -2,8 +2,7 @@
 .inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+ background-color: #1A0B2E;
 }
 *{
     margin: 0;
@@ -157,7 +156,6 @@ margin-top: 15px;
     margin-left: 300px;
     margin-right: 200px;
     margin-top: 100px;
-    margin-bottom: 300px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(4,1fr);
@@ -181,4 +179,120 @@ margin-top: 15px;
   background: white;
   transform: translateY(-50%);
 }
+.choose{
+    width: 100%;
+    height: 1121px;
+    background-color: #230E3D;
+}
+.choose-title h2{
+font-size: 48px;
+font-weight: bold;
+color: #FFFFFF;
+text-align: center;
+padding-top: 120px;
+}
+.card-holder{
+    display: grid;
+    width: 78%;
+    height: 783px;
+    margin: 40px 200px 120px 200px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3, 225px);
+    gap: 30px;
+}
+.img-icon{
+    height: 60px;
+    width: 60px;
+    padding-left: 40px;
+}
+.card-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+}
 
+.card-para{
+    padding-left: 40px;
+    color: white;
+}
+.card-1{
+    grid-column: span 1;
+    grid-row: span 2;
+    
+}
+.card-1 img{
+    margin-top: 118px;
+}
+.card-2 ,.card-3 ,.card-4 img{
+    padding-top: 40px;
+}
+.card-1 ,.card-2 ,.card-3 ,.card-4{
+    border-radius: 20px;
+}
+.card-1 ,.card-2 ,.card-3 ,.card-4{
+    background-color: #280756;
+}
+.card-2{
+    grid-column: span 2;
+    grid-row: span 1;
+    
+}
+.card-4{
+    grid-column: span 2;
+    grid-row: span 1;
+    
+    height: 273px;
+}
+.card-3{
+    
+    grid-column: span 1;
+    grid-row: span 1;
+    height: 230px;
+}
+.last{
+    background-color: #1A0B2E;
+    width: 100%;
+    height: 1276px;
+}
+.episodes{
+    width: 79%;
+    height: 550px;
+    margin: 120px auto;
+}
+.card-container{
+    display: flex;
+    gap: 30px;
+}
+.episodes h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.epi-card{
+    width: 400px;
+    height: 450px;
+    position: relative;
+    display: inline-block;
+    background-color: #210647;
+    border-radius: 24px;
+}
+.epi-card h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+.epi-card p{
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 24px;
+    padding-left: 24px;
+}
+.clk{
+    padding-top: 12px;
+    padding-left: 24px;
+    display: flex;
+}
