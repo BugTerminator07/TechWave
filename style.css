@@ -296,3 +296,11 @@ padding-top: 120px;
     padding-left: 24px;
     display: flex;
 }
+.host{
+    margin: 120px 200px;
+}
+.finish{
+    width: 100%;
+    height: 412px;
+    background-image: url(assets/footer-bg.png);
+}
